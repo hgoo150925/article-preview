@@ -1,6 +1,6 @@
 import facebook from './assets/images/icon-facebook.svg';
 import twitter from './assets/images/icon-twitter.svg';
-import pinterest from './src/assets/images/icon-pinterest.svg';
+import pinterest from './assets/images/icon-pinterest.svg';
 
 export const Share = () => {
   return (
