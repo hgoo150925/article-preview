@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Share } from './Share';
 
+import avatar from './assets/images/avatar-michelle.jpg';
+import iconShare from './assets/images/icon-share.svg';
+
 function App() {
   const [isActive, setIsActive] = useState(false);
 
@@ -21,17 +24,15 @@ function App() {
         </div>
         <footer>
           <div class="author">
-            <img
-              src="../src/assets/images/avatar-michelle.jpg"
-              alt="michelle appleton avatar"
-            />
+            <img src={avatar} alt="michelle appleton avatar" />
+
             <div class="about">
               <h3>Michelle Appleton</h3>
               <time datetime="2020-06-07">28 Jun 2020</time>
             </div>
           </div>
           <div onClick={() => setIsActive(!isActive)} class="arrow">
-            <img src="../src/assets/images/icon-share.svg" alt="share" />
+            <img src={iconShare} />
           </div>
           {isActive && <Share />}
         </footer>
