@@ -1,3 +1,7 @@
+import facebook from './assets/images/icon-facebook.svg';
+import twitter from './assets/images/icon-twitter.svg';
+import pinterest from './src/assets/images/icon-pinterest.svg';
+
 export const Share = () => {
   return (
     <div class="social-media">
@@ -5,20 +9,17 @@ export const Share = () => {
       <ul>
         <li>
           <a href="#">
-            <img src="./assets/images/icon-facebook.svg" alt="facebook icon" />
+            <img src={facebook} alt="facebook icon" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="./assets/images/icon-twitter.svg" alt="facebook icon" />
+            <img src={twitter} alt="twitter icon" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img
-              src="./src/assets/images/icon-pinterest.svg"
-              alt="facebook icon"
-            />
+            <img src={pinterest} alt="pinterest icon" />
           </a>
         </li>
       </ul>
