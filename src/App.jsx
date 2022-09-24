@@ -22,7 +22,7 @@ function App() {
         <footer>
           <div class="author">
             <img
-              src="../src/assets/images/avatar-michelle.jpg"
+              src="./assets/images/avatar-michelle.jpg"
               alt="michelle appleton avatar"
             />
             <div class="about">
@@ -31,7 +31,7 @@ function App() {
             </div>
           </div>
           <div onClick={() => setIsActive(!isActive)} class="arrow">
-            <img src="../src/assets/images/icon-share.svg" alt="share" />
+            <img src="./assets/images/icon-share.svg" alt="share" />
           </div>
           {isActive && <Share />}
         </footer>
