@@ -22,7 +22,7 @@ function App() {
         <footer>
           <div class="author">
             <img
-              src="/src/assets/images/avatar-michelle.jpg"
+              src="./assets/images/drawers.jpg"
               alt="michelle appleton avatar"
             />
             <div class="about">
