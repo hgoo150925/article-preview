@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Share } from './Share';
 
 function App() {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <main>
